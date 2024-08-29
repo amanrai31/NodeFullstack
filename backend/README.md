@@ -10,9 +10,10 @@ Basic file structure in BE-
 4. readme
 5. git
 6. lint
-Server is a software that serves something.
 
-`computer/mobile/client <==> |express http requests| <==> server(FE & DB)`
+- Server is a software that serves something.
+
+`computer/mobile/client <==> |express http requests| <==> server( FE code & DB )`
 
 1. create git repo and clone it on local.
 2. On local- it is empty folder, so `npm init` OR `npm init -y` i.e. intilize an app from npm & this will create a package.json only.
@@ -35,3 +36,5 @@ We can send `<h1>`, `json` etc as response.
 
 NOTE => CORS will be same if url/ip and port both are same, even if port is different then it will be considered as CORS.
 TO SOLVE THIS => We have 2 ways - 1.(WHITELISTING) Do whitelist the FE URL in BE code. 2.(PROXY) Create proxy in FE code  
+
+1. `npm i cors`, then configure CORS whitelisting in server.js.
