@@ -1,8 +1,5 @@
 # NodeBackEnd
-nodeJS backend using exress.
-
-1. A programming lang (Here JS).
-2. DB (pgSQL, MongoDB).
+NodeJS backend using exress.
 
 Main data in BE- 1 FILE, 2 DATA, 3 THIRD PARTY(API)  
 
@@ -17,7 +14,7 @@ Server is a software that serves something.
 
 `computer/mobile/client <==> |express http requests| <==> server(FE & DB)`
 
-1. create git repo and clone it
+1. create git repo and clone it on local.
 2. On local- it is empty folder, so `npm init` OR `npm init -y` i.e. intilize an app from npm & this will create a package.json only.
 3. you can edit scripts in package.json `"start" : "node index.js"` [index.js is entry point for our app which we decided while creating package.json] {Bundlers like vite/versel do this all things for us.}
 4. Create index.js file write hello world and run by `npm run start` [Bare node application].
@@ -34,4 +31,7 @@ We can send `<h1>`, `json` etc as response.
 - `npm install dotenv` - after this create `.env` file.
 - import env in index.js
 
+---
 
+NOTE => CORS will be same if url/ip and port both are same, even if port is different then it will be considered as CORS.
+TO SOLVE THIS => We have 2 ways - 1.(WHITELISTING) Do whitelist the FE URL in BE code. 2.(PROXY) Create proxy in FE code  
