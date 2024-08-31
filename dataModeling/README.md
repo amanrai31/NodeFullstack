@@ -27,3 +27,5 @@ Object document mapper (ODM/ORM) => Data mapper, used to interact with data as o
 
 #### Where to store images? 
 We can store buffer data(pdf, jpg etc) inside mongo but this is not a good practice, we store this type of data on our own server in a different folder and share it public url on db. If we have different copies of same image we can create an array of string(url).
+
+NOTE => See orderSchema in ecommerce. 
