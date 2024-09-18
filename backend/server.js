@@ -8,7 +8,7 @@ app.get('/api', (req,res) =>{
     res.send('hiiiiiii');
 })
 
-app.get('/api', (req,res) =>{
+app.get('/api/h1', (req,res) =>{
     res.send('<h1>hello</h1>');
 })
 const users = [{"id":1, "name":'aman', "age":"100"},
