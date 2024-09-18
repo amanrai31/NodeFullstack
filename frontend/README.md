@@ -3,7 +3,7 @@
 1. `npm create vite@latest . ` (dot is because we dont want another folder to be created inside frontend folder).
 Beacause vite is a bundler, it bundles a lot of things for us Thats what BUNDLERS do, no need for `npm init` , also it automatically adds scripts and dependencies in `package.json` and some other things like modulers JS `"type"="module"`. Creates readme, gitignore and other config files.
 
-2. `npm i` - beacause all dependencies are already there, we need to do npm i.
+2. `npm i` - beacause all dependencies are already there, we need to do npm i only.
 
 #### To connect with BE- Axios(gives more features), fetch, react query.
 - Install axios `npm install axios`.
