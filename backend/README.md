@@ -17,7 +17,7 @@ Basic file structure in BE-
 
 1. create git repo and clone it on local.
 2. On local- it is empty folder, so `npm init` OR `npm init -y` i.e. intilize an app from npm & this will create a package.json only.
-3. you can edit scripts in package.json `"start" : "node index.js"` [index.js is entry point for our app which we decided while creating package.json] {Bundlers like vite/versel do this all things for us.}
+3. you can edit scripts in package.json `"start" : "node index.js"` [index.js is entry point for our app which we decided while creating package.json] {Bundlers like vite/versel do this all things for us - Writes some scripts, dependencies, DevDependencies etc}
 4. Create index.js file write hello world and run by `npm run start` [Bare node application].
 5. At this stage if you type `npm i` nothing will happen because `npm i` installs dependencies listed in our package.json & currently we dont have any dependencies.
 6. Now install express or any framework `npm install express ` OR `npm install express --save`, you can see express as dependencies in pakage.json so node module folder will created automatic.
