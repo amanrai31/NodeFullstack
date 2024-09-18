@@ -2,10 +2,11 @@
 Mongoose
 
 --- 
+- MongoDB Atlas cloud based mongoDB service.
 - MongoDB server => DataBase software.
-- Mongoose => command line tool to intract MongoDB (Prisma is for pgSQL).
+- Mongosh => command line tool to intract MongoDB 
 - MongoDB Compass => GUI tool to intract MongoDB.
-- MongoDB Atlas cloud based mongoDB service
+- Mongoose (ODM for MongoDB) - provides a schema-based solution to model application data in NodeJs also Includes built-in validation, type casting, and business logic hooks. (Prisma is for pgSQL).
 ---
 
 - We will learn only data modeling here not how to setup mongoDB connection.
