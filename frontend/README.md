@@ -7,6 +7,7 @@ Beacause vite is a bundler, it bundles a lot of things for us Thats what BUNDLER
 
 #### To connect with BE- Axios(gives more features), fetch, react query.
 - Install axios `npm install axios`.
+
 NOTE => CORS will be same if url/ip and port both are same, even if port is different then it will be considered as CORS.
 TO SOLVE THIS => We have 2 ways - 1.(WHITELISTING) Do whitelist the FE URL in BE code. 2.(PROXY) Create proxy in FE code  
 
