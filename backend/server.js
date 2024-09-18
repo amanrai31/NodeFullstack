@@ -1,4 +1,4 @@
-import express from 'express';
+ import express from 'express';
 import 'dotenv/config';
 
 const app = express();
@@ -8,6 +8,9 @@ app.get('/api', (req,res) =>{
     res.send('hiiiiiii');
 })
 
+app.get('/api', (req,res) =>{
+    res.send('');
+})
 const users = [{"id":1, "name":'aman', "age":"100"},
     {"id":2, "name":'appu', "age":"10"},
     {"id":3, "name":'rahul', "age":"50"}
