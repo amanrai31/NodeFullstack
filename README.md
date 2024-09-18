@@ -1,5 +1,8 @@
 # NodeFullstack
-Node, BE => express, FE => react(vite) , data modeling(mongoose).
+1. Node, 
+2. BE => express
+3. FE => react(vite)
+4. Data modeling(mongoose).
 
 ### Remote workspace - (Github codespace, stackblitz, codeSandbox)
 --- 
