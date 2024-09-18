@@ -25,7 +25,7 @@ Basic file structure in BE-
 
 ---
 
-We can send `<h1>` res.send('hiiiiiii') , `json` etc as response.
+We can send `<h1>` res.send('<h1>hello</h1>'); , `json` etc as response.
 
 - We can install nodemon to restart nd load our application. `npm i -D nodemon` -D for dev dep. [Dev deps do not go in prod.]
 - Create `.gitignore` file to ignore what not to upload. (Simply write name of file there)
