@@ -20,7 +20,7 @@ Mongoose
 1. import mongoose, 
 2. create a schema, schema is a function[takes 1 thing=> schema props as object, & timestamps(optional) => timestamps-[createdAt, updatedAt]]. (Mongoose gives out of the box mongoDB validation feature)
 3. export model[Model takes 2 things- 1=>model name, 2=> schemaName(model will be based on this schema)] based on that schema.
-- Some data validation checks for shema props- required, unique, lower/uupercase,min,max
+- Example of data validation checks for schema props- required, unique, lower/uupercase,min,max
 - mongoose gives you timestamps 
 
 ### ODM/ORM (Same ODM for noSQL & ORM for SQL)
