@@ -12,7 +12,14 @@ function App() {
       console.log(error)
     })
   })
-
+ const [msg, setMsg] = useState("");
+  const [txt, setTxt] = useState(false);
+  const click = ()=>{
+    axios.get('/api').then((response)=>{
+      setMsg(response.data);
+    } ).catch((error)=> {console.log(error)})
+   setTxt((prev)=> !prev);
+  }
   return (
     <>
       <h1>Chaliye suru karte h</h1>
@@ -25,6 +32,10 @@ function App() {
         </div>
       ))
       }
+      <div>
+      <button onClick={click}>click</button>
+      {txt && <h3>{msg}</h3> }
+      </div>
     </>
   )
 }
