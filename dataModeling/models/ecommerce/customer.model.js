@@ -14,6 +14,9 @@ email:{
 password:{
     type:String,
     reqired:true,
+},
+address:{
+    type: [string],
 }
 },{timestamps:true});
 
