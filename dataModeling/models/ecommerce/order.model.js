@@ -1,10 +1,12 @@
 import { Product } from "./product.model";
+import { Customer } from "./customer.model";
+
 import mongoose from mongoose;
 
 const orderItemSchema = new mongoose.Schema({    // 2=> we can create this in another file also, if needed.
     productId:{ 
         type: mongoose.Schema.type.ObjectId,
-        re:"Product",
+        ref:"Product",
     },
     quantity:{
         type:number,
