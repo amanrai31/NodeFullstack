@@ -4,7 +4,7 @@ NodeJS backend using express.
 Main data(to be work with) in BackEnd- 1 FILE, 2 DATA, 3 THIRD PARTY(API)  
 
 Basic file structure in BE-
-1. src [DB, model, controller, route, middlewre, utils(reusable things) etc]
+1. src [ route,controller, middlewre, DB, model, utils(reusable things) etc]
 2. package.json
 3. .env
 4. readme
